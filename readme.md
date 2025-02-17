@@ -1,4 +1,5 @@
 # Coolify MCP Server
+[![smithery badge](https://smithery.ai/badge/@StuMason/coolify-mcp-server)](https://smithery.ai/server/@StuMason/coolify-mcp-server)
 
 ## Overview
 
@@ -21,6 +22,15 @@ The Coolify MCP (Model Context Protocol) Server is an integration layer for the 
 
 ## Installation
 
+### Installing via Smithery
+
+To install Coolify MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@StuMason/coolify-mcp-server):
+
+```bash
+npx -y @smithery/cli install @StuMason/coolify-mcp-server --client claude
+```
+
+### Manual Installation
 To set up the Coolify MCP Server, follow these steps:
 
 1. **Clone the repository:**
