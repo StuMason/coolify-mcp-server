@@ -1,5 +1,7 @@
 # Coolify MCP Server
 
+<a href="https://glama.ai/mcp/servers/ohmvqj2396"><img width="380" height="200" src="https://glama.ai/mcp/servers/ohmvqj2396/badge" alt="Coolify Server MCP server" /></a>
+
 ## Overview
 
 This is still very much in development. 
