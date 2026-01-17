@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/stumason-coolify-mcp-server-badge.png)](https://mseep.ai/app/stumason-coolify-mcp-server)
+
 # Coolify MCP Server
 
 ## Overview
