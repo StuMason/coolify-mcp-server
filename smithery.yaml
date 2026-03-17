@@ -1,0 +1,21 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - coolifyAccessToken
+      - coolifyBaseUrl
+    properties:
+      coolifyAccessToken:
+        type: string
+        description: The API access token for the Coolify API.
+      coolifyBaseUrl:
+        type: string
+        description: The base URL of the Coolify API.
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({command: 'node', args: ['build/index.js'], env: { COOLIFY_ACCESS_TOKEN: config.coolifyAccessToken, COOLIFY_BASE_URL: config.coolifyBaseUrl }})
